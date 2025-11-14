@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.section2{
+
+    height: 500px;
+    font-size: 24px;
+    height: auto;
+    padding:50px;
+}
+.section2 h2{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color: rgb(33, 73, 75);
+    
+}
+.producto{
+    width:330px;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px  gray;
+}
+
+.productos{
+    width: auto;
+    display:flex;
+    justify-content: space-evenly;
+    
+   
+    
+}
+
+.verCatalogo{
+    display: flex;   
+    justify-self: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border: none;
+    background-color: rgb(60, 110, 113);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+   
+}
+
+.verCatalogo:hover{
+    background-color: rgb(33, 73, 75);
+  
+    color: rgb(255, 255, 255);
+    border:none;
+    cursor: pointer;
+}
+
+.productos:hover{
+    cursor: pointer;
+}

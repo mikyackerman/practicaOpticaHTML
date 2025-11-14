@@ -1,0 +1,17 @@
+# Ignorar historial de extensiones (para evitar miles de archivos)
+.history*
+.history/
+
+# Ignorar configuraciones personales de VS Code
+.vscode/
+
+# Archivos temporales del sistema
+Thumbs.db
+desktop.ini
+
+# Archivos temporales de OneDrive
+*.tmp
+*.temp
+
+# Archivos de respaldo
+*~

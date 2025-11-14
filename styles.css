@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color:white
+}
+
+h2{
+    color: white;
+    padding-bottom: 20px;
+}
+
+header{
+    color: rgb(33, 73, 75);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-size: 24px;
+    
+    
+}
+
+.logo{
+    width: 300px;
+
+}
+
+.citaBtn{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #3c6e71;
+    color: white;
+    border:none;
+    
+
+}
+
+.citaBtn:hover{
+    background-color: rgb(33, 73, 75);
+    cursor: pointer;
+    
+}
+
+.section1{
+    height: 600px;
+    background-color: rgb(60, 110, 113);
+    display: flex;  
+    align-items: center;
+   
+       
+}
+
+section div {
+    color: white;
+    font-size: 28px;
+    width:50%;
+
+    
+}
+
+.familia{
+    text-align: center; 
+}
+
+
+.familiaLentes{
+    width: 800px;
+    border-radius: 10px;
+    
+}
+
+.descripcion{
+    
+    letter-spacing: .5px;
+    line-height: 1.4;
+    padding: 80px;
+}
+
