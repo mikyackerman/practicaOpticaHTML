@@ -17,7 +17,8 @@ h2{
 }
 
 .lema{
-    font-size: clamp(1.5rem, 3vw, 3rem);
+  
+    font-size: clamp(1rem,3vw, 3rem);
 }
 
 
@@ -32,8 +33,8 @@ header{
 
 .logo{
 
-  width: 20vw;
-  max-width: 250px;
+  width: 15vw;
+  max-width: 200px;
   height: auto;
   
 }
@@ -41,7 +42,7 @@ header{
 .citaBtn{
     
     padding: .8rem;
-    font-size: clamp(.85rem, 2vw, 1.5rem); /* responsive pero controlado */
+    font-size: clamp(.5rem, 1.5vw, 1.5rem); /* responsive pero controlado */
     border-radius: 20px;
     background-color: #3c6e71;
     color: white;
