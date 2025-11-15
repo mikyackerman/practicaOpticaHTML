@@ -9,10 +9,9 @@
 
 .section2{
 
-    height: 500px;
     font-size: 24px;
     height: auto;
-    padding:50px;
+  
 }
 .section2 h2{
     text-align: center;
@@ -21,20 +20,23 @@
     color: rgb(33, 73, 75);
     
 }
-.producto{
-    width:330px;
-    border-radius: 10px;
-    box-shadow: 0 0px 5px  gray;
-}
 
 .productos{
     width: auto;
     display:flex;
     justify-content: space-evenly;
-    
-   
+    flex-wrap: wrap;  
+    gap: 1rem;  
+}
+
+
+.producto{
+    width:330px;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px  gray;
     
 }
+
 
 .verCatalogo{
     display: flex;   
