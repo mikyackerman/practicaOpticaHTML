@@ -56,37 +56,62 @@ header{
 }
 
 .section1{
-    height: 600px;
+    
     background-color: rgb(60, 110, 113);
     display: flex;  
     align-items: center;
-   
-       
+
+           
 }
 
 section div {
     color: white;
-    font-size: 28px;
-    width:50%;
-
-    
+    font-size: 1.5rem;
+    width: 50%
 }
 
 .familia{
-    text-align: center; 
-}
+   text-align: center;
 
-
-.familiaLentes{
-    width: 800px;
-    border-radius: 10px;
     
 }
+.familiaLentes{
+    
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+ @media (max-width: 1024px) {
+    .section1 {
+      flex-direction: column; /* texto arriba, imagen abajo */
+
+     
+    }
+ }
+
+ @media (max-width: 1024px) {
+    .descripcion {
+      flex-direction: column; /* texto arriba, imagen abajo */
+      font-size: 1rem;
+      width: 100%;
+    }
+ }
+
+  @media (max-width: 1024px) {
+    .familiaLentes {
+      /* texto arriba, imagen abajo */
+   
+    width: 100%;
+      
+    }
+ }
 
 .descripcion{
     
     letter-spacing: .5px;
-    line-height: 1.4;
-    padding: 80px;
+    line-height: 1.6;
+    padding-left: 5vw;
+   
 }
 
