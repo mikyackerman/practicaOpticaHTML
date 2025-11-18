@@ -7,13 +7,14 @@
 
 body{
     height: 100vh;
-    background-color: rgb(50, 90, 92);
+    background-color: #3c6e71;
     
 }
 h1{
     text-align: center;
     margin: 5%;
-    color: rgb(60, 110, 113);
+    color: #3c6e71;
+    font-size: 2.5rem;
       
 }
 
@@ -29,10 +30,11 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2rem;
+    box-shadow: 0 0 10px rgb(34, 34, 34);
 }
 
 button{
-    background-color:rgb(60, 110, 113);
+    background-color:#3c6e71;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -55,7 +57,12 @@ form * {
     padding: 15px;
     font-size: 1rem;
     border-radius: 1rem;
+    background-color: #f4f4f4;
     
+}
+
+.boton{
+    background-color:#3c6e71;
 }
 
 form *:focus {
