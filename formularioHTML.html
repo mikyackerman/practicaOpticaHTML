@@ -10,8 +10,8 @@
 <body>  
     <div class="citas">
         
-    <h1>Registro de Citas</h2>
-    <form>
+    <h1>Registro de Citas</h1>
+    <form id="formCita">
         <input type="text"  name="nombre" placeholder="Nombre" required>
         <input type="tel" name="telefono" placeholder="Telefono" 
         pattern="[0-9\-]{10,12}" required>
@@ -22,5 +22,29 @@
         <button type="submit" class="boton">Enviar</button>
     </form>
     </div>
+
+
+    <script>
+document.getElementById("formCita").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(e.target);
+
+  fetch("https://script.google.com/macros/s/AKfycby_yMt_DfHgf5Nkig-na5dNWr83nTLhCafZB1b8LFhdXJk2nretc64axLnhCuHuhUmt/exec", {
+    method: "POST",
+    body: formData
+  })
+  .then(r => r.text())
+  .then(response => {
+    alert("Enviado correctamente");
+    e.target.reset();
+  })
+  .catch(err => {
+    console.error(err);
+    alert("Error al enviar: " + err);
+  });
+});
+</script>  
+
 </body>
 </html>
